@@ -1,56 +1,27 @@
 # Starter Template for new .NET Projects
 
-[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/wonderbird/dotnet-starter)
-[![Build Status Badge](https://github.com/wonderbird/dotnet-starter/workflows/.NET/badge.svg)](https://github.com/wonderbird/dotnet-starter/actions?query=workflow%3A%22.NET%22)
-[![Test Coverage (coveralls)](https://img.shields.io/coveralls/github/wonderbird/dotnet-starter)](https://coveralls.io/github/wonderbird/dotnet-starter)
-[![Test Coverage (codeclimate)](https://img.shields.io/codeclimate/coverage-letter/wonderbird/dotnet-starter)](https://codeclimate.com/github/wonderbird/dotnet-starter/trends/test_coverage_total)
-[![Code Maintainability](https://img.shields.io/codeclimate/maintainability-percentage/wonderbird/dotnet-starter)](https://codeclimate.com/github/wonderbird/dotnet-starter)
-[![Issues in Code](https://img.shields.io/codeclimate/issues/wonderbird/dotnet-starter)](https://codeclimate.com/github/wonderbird/dotnet-starter/issues)
-[![Technical Debt](https://img.shields.io/codeclimate/tech-debt/wonderbird/dotnet-starter)](https://codeclimate.com/github/wonderbird/dotnet-starter)
-[![CodeScene Code Health](https://codescene.io/projects/13371/status-badges/code-health)](https://codescene.io/projects/13371/jobs/latest-successful/results)
-[![CodeScene System Mastery](https://codescene.io/projects/13371/status-badges/system-mastery)](https://codescene.io/projects/13371/jobs/latest-successful/results)
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/wonderbird/kata-factorial-trailing-zeros)
+[![Build Status Badge](https://github.com/wonderbird/kata-factorial-trailing-zeros/workflows/.NET/badge.svg)](https://github.com/wonderbird/kata-factorial-trailing-zeros/actions?query=workflow%3A%22.NET%22)
+[![Test Coverage (coveralls)](https://img.shields.io/coveralls/github/wonderbird/kata-factorial-trailing-zeros)](https://coveralls.io/github/wonderbird/kata-factorial-trailing-zeros)
+[![Test Coverage (codeclimate)](https://img.shields.io/codeclimate/coverage-letter/wonderbird/kata-factorial-trailing-zeros)](https://codeclimate.com/github/wonderbird/kata-factorial-trailing-zeros/trends/test_coverage_total)
+[![Code Maintainability](https://img.shields.io/codeclimate/maintainability-percentage/wonderbird/kata-factorial-trailing-zeros)](https://codeclimate.com/github/wonderbird/kata-factorial-trailing-zeros)
+[![Issues in Code](https://img.shields.io/codeclimate/issues/wonderbird/kata-factorial-trailing-zeros)](https://codeclimate.com/github/wonderbird/kata-factorial-trailing-zeros/issues)
+[![Technical Debt](https://img.shields.io/codeclimate/tech-debt/wonderbird/kata-factorial-trailing-zeros)](https://codeclimate.com/github/wonderbird/kata-factorial-trailing-zeros)
+[![CodeScene Code Health](https://codescene.io/projects/13405/status-badges/code-health)](https://codescene.io/projects/13405/jobs/latest-successful/results)
+[![CodeScene System Mastery](https://codescene.io/projects/13405/status-badges/system-mastery)](https://codescene.io/projects/13405/jobs/latest-successful/results)
 
-This repository implements the [Roman Numerals Helper Kata as found on CodeWars](https://www.codewars.com/kata/51b66044bce5799a7f000003/train/csharp)
+This repository implements the [Number of trailing zeros of N! Kata as found on CodeWars](https://www.codewars.com/kata/52f787eb172a8b4ae1000a34)
 
 ## Thanks
 
-Many thanks to [JetBrains](https://www.jetbrains.com/?from=dotnet-starter) who provide
+Many thanks to [JetBrains](https://www.jetbrains.com/?from=kata-factorial-trailing-zeros) who provide
 an [Open Source License](https://www.jetbrains.com/community/opensource/) for this project ❤️.
 
 # Development
 
-### Creating a New Project From this Template
-
-After having forked this starter project, you'll need to adapt the project names inside this solution, fix **the links**
-in the badges section above, the textual description in this README.md file and - if using
-[CodeClimate (Quality)](https://codeclimate.com) - add the `CC_TEST_REPORTER_ID` to the github project secrets:
-
-1. Change the LICENSE to your needs
-
-2. Renaming from `DotnetStarter` to ...
-   - rename the `.sln`, the contained projects and the root namespaces to match your new project
-   - adapt the test entry in the `.github/workflow/dotnet.yml` file
-   - adapt the environment variable in `tools/dupfinder.sh` and `tools/dupfinder.bat`, respectively
-   - adapt the test directory in the `.gitpod.yml` file
-
-3. If you have a [coveralls.io](https://coveralls.io) account, add the new project and replace the corresponding `wonderbird/dotnet-starter` entries above by your Github name and the name of this project.
-
-4. If you have a [CodeClimate (Quality)](https://codeclimate.com) account,
-   - add the new project and replace the corresponding `wonderbird/dotnet-starter` entries above by your Github name and the name of this project
-   - get the `CC_TEST_REPORTER_ID` from the [CodeClimate](https://codeclimate.com) test coverage settings and set it as a repository secret in your Github project
-
-5. If you have a [CodeScene](https://codescene.io) account,
-   - add the new project and trigger an analysis
-   - in the [CodeScene](https://codescene.io) status badges configuration, tick the checboxes next to Code Health and System Mastery in order to make the badges visible to the public
-   - in the badges section above, replace the [CodeScene](https://codescene.io) project number `13371` by the number of your project
-
-6. Delete all badges from above, which you don't need
-
-7. Commit and push in order to trigger a build. Then check whether all badges work as expected, i.e. click them and check whether they redirect to the correct projects.
-
 ### Quick-Start
 
-Click the [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/wonderbird/dotnet-starter) badge (also above) to launch a web IDE.
+Click the [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/wonderbird/kata-factorial-trailing-zeros) badge (also above) to launch a web IDE.
 
 If that does not work for you or if you'd like to have the project on your local machine, then continue reading.
 
