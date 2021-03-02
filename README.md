@@ -1,4 +1,4 @@
-# Starter Template for new .NET Projects
+# Number of trailing zeros of N! Kata
 
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/wonderbird/kata-factorial-trailing-zeros)
 [![Build Status Badge](https://github.com/wonderbird/kata-factorial-trailing-zeros/workflows/.NET/badge.svg)](https://github.com/wonderbird/kata-factorial-trailing-zeros/actions?query=workflow%3A%22.NET%22)
