@@ -1,14 +1,8 @@
 # Number of trailing zeros of N! Kata
 
-[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/wonderbird/kata-factorial-trailing-zeros)
-[![Build Status Badge](https://github.com/wonderbird/kata-factorial-trailing-zeros/workflows/.NET/badge.svg)](https://github.com/wonderbird/kata-factorial-trailing-zeros/actions?query=workflow%3A%22.NET%22)
-[![Test Coverage (coveralls)](https://img.shields.io/coveralls/github/wonderbird/kata-factorial-trailing-zeros)](https://coveralls.io/github/wonderbird/kata-factorial-trailing-zeros)
-[![Test Coverage (codeclimate)](https://img.shields.io/codeclimate/coverage-letter/wonderbird/kata-factorial-trailing-zeros)](https://codeclimate.com/github/wonderbird/kata-factorial-trailing-zeros/trends/test_coverage_total)
-[![Code Maintainability](https://img.shields.io/codeclimate/maintainability-percentage/wonderbird/kata-factorial-trailing-zeros)](https://codeclimate.com/github/wonderbird/kata-factorial-trailing-zeros)
-[![Issues in Code](https://img.shields.io/codeclimate/issues/wonderbird/kata-factorial-trailing-zeros)](https://codeclimate.com/github/wonderbird/kata-factorial-trailing-zeros/issues)
-[![Technical Debt](https://img.shields.io/codeclimate/tech-debt/wonderbird/kata-factorial-trailing-zeros)](https://codeclimate.com/github/wonderbird/kata-factorial-trailing-zeros)
-[![CodeScene Code Health](https://codescene.io/projects/13405/status-badges/code-health)](https://codescene.io/projects/13405/jobs/latest-successful/results)
-[![CodeScene System Mastery](https://codescene.io/projects/13405/status-badges/system-mastery)](https://codescene.io/projects/13405/jobs/latest-successful/results)
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/wonderbirds-katas/kata-factorial-trailing-zeros)
+[![Build Status Badge](https://github.com/wonderbirds-katas/kata-factorial-trailing-zeros/workflows/.NET/badge.svg)](https://github.com/wonderbirds-katas/kata-factorial-trailing-zeros/actions?query=workflow%3A%22.NET%22)
+[![Test Coverage (coveralls)](https://img.shields.io/coveralls/github/wonderbirds-katas/kata-factorial-trailing-zeros)](https://coveralls.io/github/wonderbirds-katas/kata-factorial-trailing-zeros)
 
 This repository implements the [Number of trailing zeros of N! Kata as found on CodeWars](https://www.codewars.com/kata/52f787eb172a8b4ae1000a34)
 
@@ -21,7 +15,7 @@ an [Open Source License](https://www.jetbrains.com/community/opensource/) for th
 
 ### Quick-Start
 
-Click the [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/wonderbird/kata-factorial-trailing-zeros) badge (also above) to launch a web IDE.
+Click the [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/wonderbirds-katas/kata-factorial-trailing-zeros) badge (also above) to launch a web IDE.
 
 If that does not work for you or if you'd like to have the project on your local machine, then continue reading.
 
@@ -49,12 +43,12 @@ dotnet build
 dotnet test
 
 # If you like continuous testing then use the dotnet file watcher to trigger your tests
-dotnet watch -p ./RomanNumerals.Logic.Tests test
+dotnet watch -p ./Kata.Logic.Tests test
 
 # As an alternative, run the tests with coverage and produce a coverage report
 rm -r RomanNumerals.Logic.Tests/TestResults && \
   dotnet test --no-restore --verbosity normal /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura /p:CoverletOutput='./TestResults/coverage.cobertura.xml' && \
-  reportgenerator "-reports:RomanNumerals.Logic.Tests/TestResults/*.xml" "-targetdir:report" "-reporttypes:Html;lcov" "-title:RomanNumerals"
+  reportgenerator "-reports:Kata.Logic.Tests/TestResults/*.xml" "-targetdir:report" "-reporttypes:Html;lcov" "-title:Factorial Trailing Zeros Kata"
 open report/index.html
 ```
 
